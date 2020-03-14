@@ -4,16 +4,17 @@ My code and notes based on exercise from intro-to-vue-js course from https://www
 # Lesson 01 - intro and base setup
 
 
-## Chrome installation of Vue.js chrome extenstion
+## Chrome installation of Vue.js chrome extension
 
 ### Installation
 
-### Step 00 In chrome web store add extension Vue.js devtools
+### Step 0 - In chrome web store add extension Vue.js devtools
 
 Goto https://chrome.google.com/webstore/category/extensions?hl=en and add extension Vue.js
 
 ![01.00-In-chrome-web-store-add-extension-Vue.js-devtools.png](01.00-In-chrome-web-store-add-extension-Vue.js-devtools.png)
 
+### Usage
 
 ### Step 01 Right click and select Inspect
 ![01.01-Right-click-and-select-Inspect.png](01.01-Right-click-and-select-Inspect.png)
