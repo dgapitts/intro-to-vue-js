@@ -82,6 +82,10 @@
             width: 100%;
             height: 60px;
             }
+
+            .outOfStock {
+                text-decoration: line-through;
+            }
     </style>
 </head>
 <body>
@@ -93,7 +97,7 @@
             <div class="product-info">
                 <h2>{{product}}</h2>
                 <p v-if="inStock">In Stock</p>
-                <p v-else>Out of Stock</p>
+                <p v-else :class="{ outOfStock: !inStock }">Out of Stock</p>
                 <ul>
                     <li v-for="detail in details">{{ detail }}</li>
                 </ul>
@@ -138,6 +142,7 @@
         methods: {
             addToCart() {
                 this.cart += 1
+                this.inStock = true
             },
             updateProduct(variantImage) {
                 this.image = variantImage
